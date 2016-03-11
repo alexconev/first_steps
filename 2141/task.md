@@ -4,7 +4,7 @@
 
 **Вход #1:**
 
-	Az programiram na C/C++
+	Az programiram na C/C++.
 
 **Изход #1:**
 

@@ -18,7 +18,7 @@
 
 	trinadeset
 
-EXPECTED:
+_Очаквано_:
 ---------
 
 1 - edno

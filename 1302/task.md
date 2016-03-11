@@ -10,7 +10,7 @@
 
 	petdeset i shest
 
-EXPECTED:
+_Очаквано_:
 ---------
 
 0 - nula
