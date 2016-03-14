@@ -1,4 +1,4 @@
-#include <iostream.h>
+#include <iostream>
 using namespace std;
 
 int main(){ 
@@ -12,7 +12,7 @@ int main(){
 	}
 	else{ 
 		x = b / a;
-		cout<< "x=" << x << endl;
+		cout << x << endl;
 	}
 	
 	return 0;
