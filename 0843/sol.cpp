@@ -20,16 +20,17 @@ int main(){
 	y4 = y % 10;
 
 	s = d1 + d2 + m1 + m2 + y1 + y2 + y3 + y4;
+
 	if (s > 9){
 		s1 = s / 10;
 		s2 = s % 10;
-		s = s1 + s2
+		s = s1 + s2;
 	}
 	
 	if (s > 9){
 		s1 = s / 10;
 		s2 = s % 10;
-		s = s1 + s2
+		s = s1 + s2;
 	}
 
 	cout << s << endl;

@@ -7,7 +7,9 @@ int main(){
 
 	cin >> a >> b >> c;
 
-	cout << 'knigi - ' << ceil(float(a) / 15) << 'vestnici - ' << ceil(float(b) / 15) << 'spisania - ' << ceil(float(c) / 15) << endl;
+	cout << "knigi - " << ceil(float(a) / 15) << ' ';
+	cout << "vestnici - " << ceil(float(b) / 15) << ' ';
+	cout << "spisania - " << ceil(float(c) / 15) << endl;
 
 	return 0;
 }

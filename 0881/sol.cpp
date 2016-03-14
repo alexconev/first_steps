@@ -6,6 +6,7 @@ int main(){
 
 	cin.get(ch);
 
+	if(ch == 'z') ch -= 26;
 	ch++;
 	
 	cout << ch << endl;	

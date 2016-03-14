@@ -1,5 +1,5 @@
 #include <iostream>
-use namespace std;
+using namespace std;
 
 int main(){
 	int nk, ng, pk, pg, ok, og;
