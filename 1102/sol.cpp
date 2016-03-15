@@ -7,7 +7,7 @@ int main() {
 
 	cin >> year;
 
-	cout << year%4 == 0 ? "Yes" : "No" << endl;
+	cout << (year%4 == 0 ? "Yes" : "No") << endl;
 
 	return 0;
 }

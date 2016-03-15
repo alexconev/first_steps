@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-	int a, b, а1, а2, а3, b1, b2, b3, c;
+	int a, b, c, a1, a2, a3, b1, b2, b3, t1, t2;
 
 	cin >> a >> b;
 
@@ -17,23 +17,23 @@ int main() {
 
 	a = a1+b3;
 	if(a > 9){
-		a1 = a / 10;
-		a2 = a % 10;
-		a = a1 + a2;
+		t1 = a / 10;
+		t2 = a % 10;
+		a = t1 + t2;
 	}
 
 	b = a2+b2;
 	if(b > 9){
-		b1 = b / 10;
-		b2 = b % 10;
-		b = b1 + b2;
+		t1 = b / 10;
+		t2 = b % 10;
+		b = t1 + t2;
 	}
 
 	c = a3+b1;
-	if(a > 9){
-		a1 = c / 10;
-		a2 = c % 10;
-		c = a1 + a2;
+	if(c > 9){
+		t1 = c / 10;
+		t2 = c % 10;
+		c = t1 + t2;
 	}
 
 	cout << a << b << c << endl;

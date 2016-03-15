@@ -7,7 +7,7 @@ int main() {
 
 	cin >> a >> b >> c >> d;
 
-	if((a >= c && b >= d) || (a >= d && b >= c))
+	if((a <= c && b <= d) || (a <= d && b <= c))
 		cout << "Yes\n";
 	else
 		cout << "No\n";

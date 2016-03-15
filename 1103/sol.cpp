@@ -7,7 +7,7 @@ int main() {
 
 	cin >> x >> y;
 
-	cout << x%2 == 0 ? (x-y) : (x*y) << endl;
+	cout << (x%2 == 0 ? (x*y) : (x-y)) << endl;
 
 	return 0;
 }

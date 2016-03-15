@@ -14,7 +14,7 @@ int main() {
 			else 
 				cout << "3\n";
 		else
-			if(c != 0)
+			if(c == 0)
 				cout << "2\n";
 			else
 				cout << "Niama takova chislo\n";
