@@ -56,7 +56,7 @@ def make_tests(root, files):
     for f in files:
         if f.endswith(".in"):
             if not run_test(os.path.abspath(root+'/'+f)):
-                print("Expected answer is different in test %s" % f[0:-3])
+                print("Expected answer is different in test %s" % os.path.abspath(root))
 
 
 def main():
