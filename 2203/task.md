@@ -8,12 +8,12 @@
 
 **Изход #1:**
 
-	**Yes**
+	Yes
 
 **Вход #2:**
 
-	Tozi tekst ima dimi i 4isla
+	Tozi tekst ima dimi i 4isla.
 
 **Изход #2:**
 
-	**No**
+	No

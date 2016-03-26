@@ -12,7 +12,7 @@ int main() {
 	
 	d += 7;
 
-	if(d - months[m-1]){
+	if((d - months[m-1])>0){
 		d = d - months[m-1];
 		m += 1;
 	}
