@@ -4,7 +4,7 @@
 
 **Вход #1:**
 
-	**ssssdooosdos**
+	ssssdooosdos
 
 **Изход #1:**
 
