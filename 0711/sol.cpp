@@ -10,7 +10,7 @@ int main(){
 	cin >> l >> h >> m;
 	
 	s = l * h; 
-	b = ceil(s / m);
+	b = ceil( s / m );
 	
 	cout << b << endl;
 	
